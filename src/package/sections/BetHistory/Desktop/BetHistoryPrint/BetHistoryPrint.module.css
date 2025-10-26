@@ -1,0 +1,78 @@
+.print {
+  background-color: white;
+  padding: 10px;
+}
+
+.print__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #0e63ae;
+  padding-bottom: 10px;
+}
+
+.print__logo_gold {
+  color: gold;
+  padding-inline-start: 5px;
+}
+
+.print__head {
+  border: 1px solid #000000;
+}
+
+.print__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px dotted black;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+
+.print__item_total {
+  font-size: 16px;
+}
+
+.print__item:last-child {
+  border-bottom: none;
+}
+
+.print__itemInner {
+  padding: 5px;
+  border-bottom: 1px dotted black;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+
+.print__itemInner:last-child {
+  border-bottom: none;
+}
+
+.print__odds {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid silver;
+  padding: 5px 0 2px;
+  margin-top: 5px;
+}
+
+.print__itemColumn {
+  padding: 2px 0;
+}
+
+.print__list {
+  margin-top: 10px;
+  border: 1px solid #000000;
+}
+
+.print__bottom {
+  margin-top: 10px;
+  border: 1px solid #000000;
+}
+

@@ -1,0 +1,5235 @@
+{
+    "50": {
+      "id": 50,
+      "name": "Football",
+      "markets": [
+        {
+          "code": "TQ",
+          "name": "To Qualify",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2",
+          "name": "Match Result",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC",
+          "name": "Double Chance",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "DNB",
+          "name": "Draw No Bet",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH",
+          "name": "Asian Handicap",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU",
+          "name": "Total Goals",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "TSG_T1",
+          "name": "Home Team Score a Goal",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2",
+          "name": "Away Team Score a Goal",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS",
+          "name": "Both Teams To Score",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1",
+          "name": "Home Team Total Goals",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2",
+          "name": "Away Team Total Goals",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "CS",
+          "name": "Correct Score",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE",
+          "name": "Odd/Even",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HNB",
+          "name": "Home No Bet",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "ANB",
+          "name": "Away No Bet",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X"
+          ]
+        },
+        {
+          "code": "S1G",
+          "name": "Which team will score the 1st goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S2G",
+          "name": "Which team will score the 2nd goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S3G",
+          "name": "Which team will score the 3rd goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S4G",
+          "name": "Which team will score the 4th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S5G",
+          "name": "Which team will score the 5th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S6G",
+          "name": "Which team will score the 6th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S7G",
+          "name": "Which team will score the 7th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S8G",
+          "name": "Which team will score the 8th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S9G",
+          "name": "Which team will score the 9th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S10G",
+          "name": "Which team will score the 10th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S11G",
+          "name": "Which team will score the 11th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "S12G",
+          "name": "Which team will score the 12th goal?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "No goal",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_H1",
+          "name": "March Result (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_H1",
+          "name": "Double Chance (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "DNB_H1",
+          "name": "Draw No Bet (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_H1",
+          "name": "Asian Handicap (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_H1",
+          "name": "Total Goals (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "TSG_T1_H1",
+          "name": "Home Team Score a Goal (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_H1",
+          "name": "Away Team Score a Goal (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS_H1",
+          "name": "Both Teams To Score (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_H1",
+          "name": "Home Team Total Goals (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_H1",
+          "name": "Away Team Total (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_H1",
+          "name": "Odd/Even (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_H1",
+          "name": "Correct Score (1st Half)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "1x2_H2",
+          "name": "Match Result (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_H2",
+          "name": "Double Chance (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "DNB_H2",
+          "name": "Draw No Bet (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_H2",
+          "name": "Asian Handicap (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_H2",
+          "name": "Total Goals (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "TSG_T1_H2",
+          "name": "Home Team Score a Goal (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_H2",
+          "name": "Away Team Score a Goal (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS_H2",
+          "name": "Both Teams To Score (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_H2",
+          "name": "Home Team Total (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_H2",
+          "name": "Away Team Total (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_H2",
+          "name": "Odd/Even (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HTFT",
+          "name": "Half Time/Full Time",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/1",
+            "1/X",
+            "1/2",
+            "X/1",
+            "X/X",
+            "X/2",
+            "2/1",
+            "2/X",
+            "2/2"
+          ]
+        },
+        {
+          "code": "SBH_T1",
+          "name": "Home Team  to Score in Both Halves",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "SBH_T2",
+          "name": "Away Team to Score in Both Halves",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTG",
+          "name": "Result/Total Goals",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "X/o",
+            "X/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "RBTS",
+          "name": "Result/Both Teams To Score",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/Yes",
+            "1/No",
+            "X/Yes",
+            "X/No",
+            "2/Yes",
+            "2/No"
+          ]
+        },
+        {
+          "code": "RTGWO_T1",
+          "name": "Home Win/Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGWU_T1",
+          "name": "Home Win/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGWO_T2",
+          "name": "Away Win/Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGWU_T2",
+          "name": "Away Win/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGNLO_T1",
+          "name": "Home Not lose/Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGNLO_T2",
+          "name": "Away Not lose/Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGNLU_T1",
+          "name": "Home Not lose/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGNLU_T2",
+          "name": "Away Not lose/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGDO",
+          "name": "Draw/Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "RTGDU",
+          "name": "Draw/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WBH",
+          "name": "To win both halves",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "WEH_T1",
+          "name": "Home team will win either half",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WEH_T2",
+          "name": "Away team will win either half",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BHO50",
+          "name": "Both Halves Over",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BHU50",
+          "name": "Both Halves Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "COR_1x2",
+          "name": "Corners Match Result",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "COR_DC",
+          "name": "Corners Double Chance",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "COR_AH",
+          "name": "Corners Asian Handicap",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "COR_OU",
+          "name": "Corners Total",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_OU_T1",
+          "name": "Corners Total Home Team",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_OU_T2",
+          "name": "Corners Total Away Team",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_1x2_H1",
+          "name": "Corners Match Result (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "COR_DC_H1",
+          "name": "Corners Double Chance (1st Half))",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "COR_AH_H1",
+          "name": "Corners Asian Handicap (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "COR_OU_H1",
+          "name": "Corners Total (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_OU_T1_H1",
+          "name": "Corners Total Home Team (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_OU_T2_H1",
+          "name": "Corners Total Away Team (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "COR_OU_H2",
+          "name": "Total Corners (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_1x2",
+          "name": "Yellow Cards Result",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "Y_DC",
+          "name": "Yellow Double Chance",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "Y_AH",
+          "name": "Yellow Asian Handicap",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "Y_OU",
+          "name": "Yellow Total",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_IOU_T1",
+          "name": "Home Team Yellow Cards",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_IOU_T2",
+          "name": "Away Team Yellow Cards",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_OE",
+          "name": "Yellow Odd/Even",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "Y_1x2_H1",
+          "name": "Yellow Cards Result (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "Y_DC_H1",
+          "name": "Yellow Double Chance (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "Y_AH_H1",
+          "name": "Yellow Asian Handicap (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "Y_OU_H1",
+          "name": "Yellow Total (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_IOU_T1_H1",
+          "name": "Home Team Yellow Cards (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "Y_IOU_T2_H1",
+          "name": "Away Team Yellow Cards (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "R_OU",
+          "name": "Red Over/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "R_OU_T1",
+          "name": "Home Red Over/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "R_OU_T2",
+          "name": "Away Red Over/Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "1x2_ET_H1",
+          "name": "Match Result - Extra Time (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_ET_H1",
+          "name": "Double Chance Extra Time (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_ET_H1",
+          "name": "Asian Handicap Extra Time (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_ET_H1",
+          "name": "Over/Under Extra Time (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "CS_ET_H1",
+          "name": "Correct Score Extra Time (1st Half) ",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        }
+      ]
+    },
+    "51": {
+      "id": 51,
+      "name": "Ice Hockey",
+      "markets": [
+        {
+          "code": "HA_OT",
+          "name": "Home/Away (Including OT)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_OT",
+          "name": "Asian Handicap (Including OT)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_OT",
+          "name": "Over/Under (Including OT)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_OT",
+          "name": "Odd/Even (Including OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_OT",
+          "name": "Correct Score (Including OT)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WOT",
+          "name": "Will match go to overtime?",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA",
+          "name": "Home/Away",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2",
+          "name": "Match Result",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC",
+          "name": "Double Chance",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "DNB",
+          "name": "Draw No Bet",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH",
+          "name": "Asian Handicap",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU",
+          "name": "Over/Under",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W",
+          "name": "Over/Under (3 Ways)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "TS_T1",
+          "name": "Home team will score a goal",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T2",
+          "name": "Away team will score a goal",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS",
+          "name": "Both Teams To Score",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1",
+          "name": "Home Team Total Goals",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2",
+          "name": "Away Team Total Goals",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_3W",
+          "name": "Home Team Total Goals (3 way)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "IOU_T2_3W",
+          "name": "Away Team Total Goals (3 way)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "TNG_V2",
+          "name": "Exact Goals",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "TNG_V2_T1",
+          "name": "Home Exact Goals",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "TNG_V2_T2",
+          "name": "Away Exact Goals",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T1",
+          "name": "Home Winning Margin",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ]
+        },
+        {
+          "code": "WM_T2",
+          "name": "Away Winning Margin",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ]
+        },
+        {
+          "code": "OE",
+          "name": "Odd/Even",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS",
+          "name": "Correct Score",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "HSH",
+          "name": "Highest Scoring Period",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "X",
+            "1st period",
+            "2nd period",
+            "3rd period",
+            "Period 1",
+            "Period 2",
+            "Period 3"
+          ]
+        },
+        {
+          "code": "1x2_P1",
+          "name": "Result (1st Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_P1",
+          "name": "Double Chance (1st Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_P1",
+          "name": "Asian Handicap (1st Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_P1",
+          "name": "Over/Under (1st Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_P1",
+          "name": "Over/Under (3 Ways) (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "TSCR_P1",
+          "name": "To Score in Period 1",
+          "cashout": 0,
+          "optional": 1,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T1_P1",
+          "name": "Home team will score a goal (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T2_P1",
+          "name": "Away team will score a goal (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS_P1",
+          "name": "Both teams will score (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_P1",
+          "name": "Home Team Total Goals (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_P1",
+          "name": "Away Team Total Goals (1st Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_P1",
+          "name": "Odd/Even (Period 1)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_P1",
+          "name": "Correct Score (1st Period)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "1x2_P2",
+          "name": "Result (2nd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_P2",
+          "name": "Double Chance (2nd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_P2",
+          "name": "Asian Handicap (2nd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_P2",
+          "name": "Over/Under (2nd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_P2",
+          "name": "Over/Under (3 Ways) (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "TSCR_P2",
+          "name": "To Score in Period 2",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T1_P2",
+          "name": "Home team will score a goal (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T2_P2",
+          "name": "Away team will score a goal (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS_P2",
+          "name": "Both teams will score (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_P2",
+          "name": "Home Team Total Goals (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_P2",
+          "name": "Away Team Total Goals (2nd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_P2",
+          "name": "Odd/Even (Period 2)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_P2",
+          "name": "Correct Score (2nd Period)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "1x2_P3",
+          "name": "Result (3rd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_P3",
+          "name": "Double Chance (3rd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_P3",
+          "name": "Asian Handicap (3rd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_P3",
+          "name": "Over/Under (3rd Period)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_P3",
+          "name": "Over/Under (3 Ways) (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under",
+            "Exactly"
+          ]
+        },
+        {
+          "code": "TSCR_P3",
+          "name": "To Score in Period 3",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T1_P3",
+          "name": "Home team will score a goal (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TS_T2_P3",
+          "name": "Away team will score a goal (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "BTS_P3",
+          "name": "Both teams will score (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_P3",
+          "name": "Home Team Total Goals (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_P3",
+          "name": "Away Team Total Goals (3rd Period)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_P3",
+          "name": "Odd/Even (Period 3)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_P3",
+          "name": "Correct Score (3rd Period)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WINSHT",
+          "name": "Winner by shootout",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    },
+    "52": {
+      "id": 52,
+      "name": "Tennis",
+      "markets": [
+        {
+          "code": "HA",
+          "name": "Home/Away",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S",
+          "name": "Asian Handicap by Sets in Match",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S",
+          "name": "Over/Under by Sets in Match",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "TS",
+          "name": "Total Sets",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "code": "AH_G",
+          "name": "Asian Handicap by Games in Match",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_G",
+          "name": "Over/Under by Games in Match",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "GTP",
+          "name": "Game Total Points",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "4 Points",
+            "5 Points",
+            "6 Points",
+            "Over 6 points"
+          ]
+        },
+        {
+          "code": "SB",
+          "name": "Set Betting",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE",
+          "name": "Odd/Even",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG",
+          "name": "Result/Total Games",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "TB",
+          "name": "Tie-break",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "IOU_T1_G",
+          "name": "Player 1 Over/Under by Games",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_G",
+          "name": "Player 2 Over/Under by Games",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "T1_WIN_1SET",
+          "name": "Win at least one set (Player 1)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "T2_WIN_1SET",
+          "name": "Win at least one set (Player 2)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S1",
+          "name": "Home/Away (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S1",
+          "name": "Asian Handicap (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S1",
+          "name": "Over/Under by games (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S1",
+          "name": "Home Team Total (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S1",
+          "name": "Away Team Total (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S1",
+          "name": "Odd/Even (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_H1",
+          "name": "Correct Score (1st Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_S1",
+          "name": "Result/Total Games (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "TB_S1",
+          "name": "Tie-break (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "CSTB_S1",
+          "name": "Tie Break Score (1st Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "HA_S2",
+          "name": "Home/Away (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S2",
+          "name": "Asian Handicap (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S2",
+          "name": "Over/Under by games (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S2",
+          "name": "Home Team Total (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S2",
+          "name": "Away Team Total (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S2",
+          "name": "Odd/Even (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_H2",
+          "name": "Correct Score (2nd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_S2",
+          "name": "Result/Total Games (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "TB_S2",
+          "name": "Tie-break (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "CSTB_S2",
+          "name": "Tie Break Score (2nd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "HA_S3",
+          "name": "Home/Away (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S3",
+          "name": "Asian Handicap (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S3",
+          "name": "Over/Under by Games (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S3",
+          "name": "Home Team Total (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S3",
+          "name": "Away Team Total (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S3",
+          "name": "Odd/Even (3rd set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "CS_H3",
+          "name": "Correct Score (3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_S3",
+          "name": "Result/Total Games (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "TB_S3",
+          "name": "Tie-break (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "CSTB_S3",
+          "name": "Tie Break Score (3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        }
+      ]
+    },
+    "53": {
+      "id": 53,
+      "name": "Basketball",
+      "markets": [
+        {
+          "code": "HA_OT",
+          "name": "Home/Away",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2",
+          "name": "Match Result",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_OT",
+          "name": "Asian Handicap (Including OT)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH",
+          "name": "Asian Handicap",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_OT",
+          "name": "Total Points (Including OT)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_OT",
+          "name": "Home Team Total (Including OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_OT",
+          "name": "Away Team Total (Including OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "HSH",
+          "name": "Highest Scoring Half",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1st Half",
+            "X",
+            "2nd Half"
+          ]
+        },
+        {
+          "code": "MV_3W",
+          "name": "Winning Margin - 3 way",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE_OT",
+          "name": "Odd/Even (Including OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "OE_T1_OT",
+          "name": "Home Odd/Even (OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "OE_T2_OT",
+          "name": "Away Odd/Even (OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HTFT_OT",
+          "name": "Half Time/Full Time (Including OT)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/1",
+            "X/1",
+            "2/1",
+            "1/2",
+            "X/2",
+            "2/2"
+          ]
+        },
+        {
+          "code": "WM14_T1",
+          "name": "Home Winning Margin (14-Way)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM14_T2",
+          "name": "Away Winning Margin (14-Way)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OT",
+          "name": "Overtime",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_Q1",
+          "name": "Home/Away (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_Q1",
+          "name": "Result (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_Q1",
+          "name": "Double Chance (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_Q1",
+          "name": "Asian Handicap (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_Q1",
+          "name": "Over/Under (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_Q1",
+          "name": "Total Points 3 Way (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_Q1",
+          "name": "Home Team Total (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_Q1",
+          "name": "Away Team Total (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "MV_Q1",
+          "name": "Margin of Victory (1st Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE_Q1",
+          "name": "Odd/Even (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "TSG_T1_Q1",
+          "name": "Home Team Score (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_Q1",
+          "name": "Away Team Score (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WM_T1_Q1",
+          "name": "Home Winning Margin (1st Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_Q1",
+          "name": "Away Winning Margin (1st Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_Q1",
+          "name": "Result/Total Points (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "x/o",
+            "x/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "HA_Q2",
+          "name": "Home/Away (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_Q2",
+          "name": "Result (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_Q2",
+          "name": "Double Chance (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_Q2",
+          "name": "Asian Handicap (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_Q2",
+          "name": "Over/Under (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_Q2",
+          "name": "Total Points 3 Way (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_Q2",
+          "name": "Home Team Total (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_Q2",
+          "name": "Away Team Total (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "MV_Q2",
+          "name": "Margin of Victory (2nd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE_Q2",
+          "name": "Odd/Even (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "TSG_T1_Q2",
+          "name": "Home Team Score (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_Q2",
+          "name": "Away Team Score (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WM_T1_Q2",
+          "name": "Home Winning Margin (2nd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_Q2",
+          "name": "Away Winning Margin (2nd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_Q2",
+          "name": "Result/Total Points (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "x/o",
+            "x/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "HA_Q3",
+          "name": "Home/Away (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_Q3",
+          "name": "Result (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_Q3",
+          "name": "Double Chance (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_Q3",
+          "name": "Asian Handicap (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_Q3",
+          "name": "Over/Under (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_Q3",
+          "name": "Total Points 3 Way (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_Q3",
+          "name": "Home Team Total (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_Q3",
+          "name": "Away Team Total (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "MV_Q3",
+          "name": "Margin of Victory (3rd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE_Q3",
+          "name": "Odd/Even (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "TSG_T1_Q3",
+          "name": "Home Team Score (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_Q3",
+          "name": "Away Team Score (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WM_T1_Q3",
+          "name": "Home Winning Margin (3rd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_Q3",
+          "name": "Away Winning Margin (3rd Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_Q3",
+          "name": "Result/Total Points (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u",
+            "x/o",
+            "x/u"
+          ]
+        },
+        {
+          "code": "HA_Q4",
+          "name": "Home/Away (4th Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_Q4",
+          "name": "Result (4th Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_Q4",
+          "name": "Double Chance (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_Q4",
+          "name": "Asian Handicap (4th Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_Q4",
+          "name": "Over/Under (4th Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_Q4",
+          "name": "Total Points 3 Way (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_Q4",
+          "name": "Home Team Total (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_Q4",
+          "name": "Away Team Total (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "MV_Q4",
+          "name": "Margin of Victory (4th Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE_Q4",
+          "name": "Odd/Even (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "TSG_T1_Q4",
+          "name": "Home Team Score (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "TSG_T2_Q4",
+          "name": "Away Team Score (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "WM_T1_Q4",
+          "name": "Home Winning Margin (4th Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_Q4",
+          "name": "Away Winning Margin (4th Quarter)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_Q4",
+          "name": "Result/Total Points (4th Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "x/o",
+            "x/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "HA_H1",
+          "name": "Home/Away (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_H1",
+          "name": "Result (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_H1",
+          "name": "Double Chance (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_H1",
+          "name": "Asian Handicap (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_H1",
+          "name": "Over/Under (1st Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_H1",
+          "name": "Total Points 3 Way (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_H1",
+          "name": "Home Team Total (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_H1",
+          "name": "Away Team Total (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_H1",
+          "name": "Odd/Even (1st half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_H1",
+          "name": "Result/Total Points (1st Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "X/o",
+            "X/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_H1",
+          "name": "Home Winning Margin (1st Half)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_H1",
+          "name": "Away Winning Margin (1st Half)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "HA_H2",
+          "name": "Home/Away (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "1x2_H2",
+          "name": "Result (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_H2",
+          "name": "Asian Handicap (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_H2",
+          "name": "Over/Under (2nd Half)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OU_3W_H2",
+          "name": "Total Points 3 Way (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Exactly",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_H2",
+          "name": "Home Team Total (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_H2",
+          "name": "Away Team Total (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_H2",
+          "name": "Odd/Even (2nd Half)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "1x2_3P",
+          "name": "Result 3-Points Shots",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_3P",
+          "name": "Double Chance 3-Points",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_3P",
+          "name": "Asian Handicap 3-Points",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_3P",
+          "name": "Total 3-Points of Shots",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_3P",
+          "name": "Home Total 3-Points of Shots",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_3P",
+          "name": "Away Total 3-Points of Shots",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_3P",
+          "name": "Odd/Even 3-Points of Shots",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_3P",
+          "name": "Result/Total 3-Points of Shot",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o/y",
+            "1/o/n",
+            "1/u/y",
+            "1/u/n",
+            "x/o/y",
+            "x/o/n",
+            "x/u/y",
+            "x/u/n",
+            "2/o/y",
+            "2/o/n",
+            "2/u/y",
+            "2/u/n"
+          ]
+        },
+        {
+          "code": "1x2_3P_Q1",
+          "name": "Result 3-Points Shots (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_3P_Q1",
+          "name": "Double Chance 3-Points (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_3P_Q1",
+          "name": "Asian Handicap 3-Points (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_3P_Q1",
+          "name": "Total 3-Points of Shots (1st Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_3P_Q1",
+          "name": "Home Total 3-Points of Shots (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_3P_Q1",
+          "name": "Away Total 3-Points of Shots (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_3P_Q1",
+          "name": "Odd/Even 3-Points of Shots (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_3P_Q1",
+          "name": "Result/Total 3-Points of Shot (1st Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o/n",
+            "1/o/y",
+            "1/u/n",
+            "1/u/y",
+            "2/o/n",
+            "2/o/y",
+            "2/u/n",
+            "2/u/y",
+            "x/o/n",
+            "x/o/y",
+            "x/u/n",
+            "x/u/y"
+          ]
+        },
+        {
+          "code": "1x2_3P_Q2",
+          "name": "Result 3-Points Shots (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_3P_Q2",
+          "name": "Double Chance 3-Points (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_3P_Q2",
+          "name": "Asian Handicap 3-Points (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_3P_Q2",
+          "name": "Total 3-Points of Shots (2nd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_3P_Q2",
+          "name": "Home Total 3-Points of Shots (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_3P_Q2",
+          "name": "Away Total 3-Points of Shots (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_3P_Q2",
+          "name": "Odd/Even 3-Points of Shots (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_3P_Q2",
+          "name": "Result/Total 3-Points of Shot (2nd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o/y",
+            "1/o/n",
+            "1/u/y",
+            "1/u/n",
+            "x/o/y",
+            "x/o/n",
+            "x/u/y",
+            "x/u/n",
+            "2/o/y",
+            "2/o/n",
+            "2/u/y",
+            "2/u/n"
+          ]
+        },
+        {
+          "code": "1x2_3P_Q3",
+          "name": "Result 3-Points Shots (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "X",
+            "2"
+          ]
+        },
+        {
+          "code": "DC_3P_Q3",
+          "name": "Double Chance 3-Points (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1X",
+            "12",
+            "X2"
+          ]
+        },
+        {
+          "code": "AH_3P_Q3",
+          "name": "Asian Handicap 3-Points (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_3P_Q3",
+          "name": "Total 3-Points of Shots (3rd Quarter)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_3P_Q3",
+          "name": "Home Total 3-Points of Shots (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_3P_Q3",
+          "name": "Away Total 3-Points of Shots (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_3P_Q3",
+          "name": "Odd/Even 3-Points of Shots (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_3P_Q3",
+          "name": "Result/Total 3-Points of Shot (3rd Quarter)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o/y",
+            "1/o/n",
+            "1/u/y",
+            "1/u/n",
+            "x/o/y",
+            "x/o/n",
+            "x/u/y",
+            "x/u/n",
+            "2/o/y",
+            "2/o/n",
+            "2/u/y",
+            "2/u/n"
+          ]
+        }
+      ]
+    },
+    "54": {
+      "id": 54,
+      "name": "Volleyball",
+      "markets": [
+        {
+          "code": "HA",
+          "name": "Home/Away",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S",
+          "name": "Asian Handicap (Sets)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S",
+          "name": "Over/Under by Sets",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "AH_G",
+          "name": "Asian Handicap (Points)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_G",
+          "name": "Total By Points",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1",
+          "name": "Home Team Total Points",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2",
+          "name": "Away Team Total Points",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "MIN_U",
+          "name": "Set min. Points Under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE",
+          "name": "Odd/Even",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HTFT",
+          "name": "First Set/Match",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/1",
+            "1/2",
+            "2/1",
+            "2/2"
+          ]
+        },
+        {
+          "code": "NS",
+          "name": "Number of Sets",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "CS",
+          "name": "Set Betting",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "SA_H2",
+          "name": "Score After 2nd Set",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "0:2",
+            "1:1",
+            "2:0",
+            "Tie"
+          ]
+        },
+        {
+          "code": "SA_H3",
+          "name": "Score After 3rd Set",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "0:3",
+            "1:2",
+            "2:1",
+            "3:0"
+          ]
+        },
+        {
+          "code": "WB5",
+          "name": "Will be the 5th set",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S1",
+          "name": "Home/Away (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S1",
+          "name": "Asian Handicap (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S1",
+          "name": "Over/Under (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S1",
+          "name": "Home Team Total (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S1",
+          "name": "Away Team Total (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "WM_T1_S1",
+          "name": "Home Winning Margin (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "WM_T2_S1",
+          "name": "Away Winning Margin (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "CS_H1",
+          "name": "Correct Score (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": []
+        },
+        {
+          "code": "RTG_S1",
+          "name": "Result/Total Points (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S1",
+          "name": "Extra Points (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE_S1",
+          "name": "Total Points Odd/Even (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HA_S2",
+          "name": "Home/Away (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S2",
+          "name": "Asian Handicap (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S2",
+          "name": "Over/Under (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S2",
+          "name": "Home Team Total (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S2",
+          "name": "Away Team Total (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "WM_T1_S2",
+          "name": "Home Winning Margin (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "WM_T2_S2",
+          "name": "Away Winning Margin (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "CS_H2",
+          "name": "Correct Score (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": []
+        },
+        {
+          "code": "RTG_S2",
+          "name": "Result/Total Points (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S2",
+          "name": "Extra Points (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE_S2",
+          "name": "Total Points Odd/Even (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HA_S3",
+          "name": "Home/Away (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S3",
+          "name": "Asian Handicap (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S3",
+          "name": "Over/Under (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S3",
+          "name": "Home Team Total (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S3",
+          "name": "Away Team Total (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "WM_T1_S3",
+          "name": "Home Winning Margin (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "WM_T2_S3",
+          "name": "Away Winning Margin (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "CS_H3",
+          "name": "Correct Score (3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_S3",
+          "name": "Result/Total Points (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S3",
+          "name": "Extra Points (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE_S3",
+          "name": "Total Points Odd/Even (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HA_S4",
+          "name": "Home/Away (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S4",
+          "name": "Asian Handicap (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S4",
+          "name": "Over/Under (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S4",
+          "name": "Home Team Total (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S4",
+          "name": "Away Team Total (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "WM_T1_S4",
+          "name": "Home Winning Margin (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "WM_T2_S4",
+          "name": "Away Winning Margin (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "CS_H4",
+          "name": "Correct Score (4th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG_S4",
+          "name": "Result/Total Points (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S4",
+          "name": "Extra Points (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE_S4",
+          "name": "Total Points Odd/Even (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "HA_S5",
+          "name": "Home/Away (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S5",
+          "name": "Asian Handicap (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S5",
+          "name": "Over/Under (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S5",
+          "name": "Home Team Total (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S5",
+          "name": "Away Team Total (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "WM_T1_S5",
+          "name": "Home Winning Margin (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "WM_T2_S5",
+          "name": "Away Winning Margin (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "2",
+            "3-4",
+            "5-7",
+            "8-11",
+            "12+"
+          ]
+        },
+        {
+          "code": "CS_H5",
+          "name": "Correct Score (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": []
+        },
+        {
+          "code": "RTG_S5",
+          "name": "Result/Total Points (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S5",
+          "name": "Extra Points (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "OE_S5",
+          "name": "Total Points Odd/Even (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        }
+      ]
+    },
+    "55": {
+      "id": 55,
+      "name": "Handball",
+      "markets": []
+    },
+    "56": {
+      "id": 56,
+      "name": "Baseball",
+      "markets": []
+    },
+    "57": {
+      "id": 57,
+      "name": "Boxing",
+      "markets": [        
+        {
+        "code": "1x2",
+        "name": "Match Result",
+        "cashout": 1,
+        "optional": 0,
+        "prices": [
+          "1",
+          "X",
+          "2"
+        ]
+      }
+    ]
+    },
+    "58": {
+      "id": 58,
+      "name": "Field hockey",
+      "markets": []
+    },
+    "59": {
+      "id": 59,
+      "name": "Beach Volleyball",
+      "markets": []
+    },
+    "60": {
+      "id": 60,
+      "name": "Beach Football",
+      "markets": []
+    },
+    "61":{
+      "id": 61,
+      "name": "Rugby Union",
+      "markets": []
+    },
+    "62": {
+      "id": 62,
+      "name": "Snooker",
+      "markets": []
+    },
+    "63": {
+      "id": 63,
+      "name": "Amer. Football",
+      "markets": []
+    },
+    "64": {
+      "id": 64,
+      "name": "Water Polo",
+      "markets": []
+    },
+    "65": {
+      "id": 65,
+      "name": "Futsal",
+      "markets": []
+    },
+    "67": {
+      "id": 67,
+      "name": "Bandy",
+      "markets": []
+    },
+    "69": {
+      "id": 69,
+      "name": "Darts",
+      "markets": []
+    },
+    "70": {
+      "id": 70,
+      "name": "Table Tennis",
+      "markets": [
+        {
+          "code": "HA",
+          "name": "Home/Away",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S",
+          "name": "Handicap by sets",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S",
+          "name": "Over/Under by Sets",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "AH",
+          "name": "Handicap by Points",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU",
+          "name": "Over/Under",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1",
+          "name": "Home Team Total",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2",
+          "name": "Away Team Total",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "SB",
+          "name": "Set Betting",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "RTG",
+          "name": "Result/Total Points",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "HTFT",
+          "name": "Set/Match",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/1",
+            "1/2",
+            "2/1",
+            "2/2"
+          ]
+        },
+        {
+          "code": "PB",
+          "name": "Point Betting",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "OE",
+          "name": "Odd/Even by Points",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "MAX_U",
+          "name": "Set max. points under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "MIN_U",
+          "name": "Set min. points under",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S1",
+          "name": "Home/Away (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S1",
+          "name": "Handicap (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S1",
+          "name": "Over/Under (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S1",
+          "name": "Home Team Total (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S1",
+          "name": "Away Team Total (1st Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S1",
+          "name": "Odd/Even (1st set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S1",
+          "name": "Result/Total Points (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_S1",
+          "name": "Home Winning Margin(1st Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_S1",
+          "name": "Away Winning Margin (1st Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "CS_S1",
+          "name": "Correct Score (1st Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "EP_S1",
+          "name": "Extra Points (1st Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S2",
+          "name": "Home/Away (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S2",
+          "name": "Handicap (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S2",
+          "name": "Over/Under (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S2",
+          "name": "Home Team Total (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S2",
+          "name": "Away Team Total (2nd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S2",
+          "name": "Odd/Even (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S2",
+          "name": "Result/Total Points (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_S2",
+          "name": "Home Winning Margin(2nd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_S2",
+          "name": "Away Winning Margin (2nd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "CS_S2",
+          "name": "Correct Score (2nd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "EP_S2",
+          "name": "Extra Points (2nd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S3",
+          "name": "Home/Away (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S3",
+          "name": "Handicap (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S3",
+          "name": "Over/Under (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S3",
+          "name": "Home Team Total (3rd Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S3",
+          "name": "Away Team Total (3th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S3",
+          "name": "Odd/Even (3rd set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S3",
+          "name": "Result/Total Points (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_S3",
+          "name": "Home Winning Margin(3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_S3",
+          "name": "Away Winning Margin (3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "CS_S3",
+          "name": "Correct Score (3rd Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "EP_S3",
+          "name": "Extra Points (3rd Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S4",
+          "name": "Home/Away (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S4",
+          "name": "Handicap (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S4",
+          "name": "Over/Under (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S4",
+          "name": "Home Team Total (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S4",
+          "name": "Away Team Total (4th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S4",
+          "name": "Odd/Even (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S4",
+          "name": "Result/Total Points (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_S4",
+          "name": "Home Winning Margin(4th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_S4",
+          "name": "Away Winning Margin (4th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "CS_S4",
+          "name": "Correct Score (4th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "EP_S4",
+          "name": "Extra Points (4th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "code": "HA_S5",
+          "name": "Home/Away (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S5",
+          "name": "Handicap (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S5",
+          "name": "Over/Under (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S5",
+          "name": "Home Team Total (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S5",
+          "name": "Away Team Total (5th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S5",
+          "name": "Odd/Even (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S5",
+          "name": "Result/Total Points (5th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "WM_T1_S5",
+          "name": "Home Winning Margin(5th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "WM_T2_S5",
+          "name": "Away Winning Margin (5th Set)",
+          "cashout": 0,
+          "optional": 1,
+          "prices": []
+        },
+        {
+          "code": "HA_S6",
+          "name": "Home/Away (6th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S6",
+          "name": "Asian Handicap (6th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S6",
+          "name": "Over/Under (6th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T1_S6",
+          "name": "Home Team Total (6th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S6",
+          "name": "Avay Team Total (6th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S6",
+          "name": "Odd/Even (6th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S6",
+          "name": "Result/Total Points (6th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o",
+            "2/u"
+          ]
+        },
+        {
+          "code": "EP_S6",
+          "name": "Extra Points (6th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "code": "HA_S7",
+          "name": "Home/Away (7th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "AH_S7",
+          "name": "Asian Handicap (7th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "code": "OU_S7",
+          "name": "Over/Under (7th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "IOU_T2_S7",
+          "name": "Avay Team Total (7th Set)",
+          "cashout": 1,
+          "optional": 0,
+          "prices": [
+            "Over",
+            "Under"
+          ]
+        },
+        {
+          "code": "OE_S7",
+          "name": "Odd/Even (7th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "Odd",
+            "Even"
+          ]
+        },
+        {
+          "code": "RTG_S7",
+          "name": "Result/Total Points (7th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "1/o",
+            "1/u",
+            "2/o"
+          ]
+        },
+        {
+          "code": "EP_S7",
+          "name": "Extra Points (7th Set)",
+          "cashout": 0,
+          "optional": 0,
+          "prices": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    "71": {
+      "id": 71,
+      "name": "Aussie Rules",
+      "markets": []
+    },
+    "73": {
+      "id": 73,
+      "name": "Formula 1",
+      "markets": []
+    },
+    "75": {
+      "id": 75,
+      "name": "Cricket",
+      "markets": []
+    },
+    "76": {
+      "id": 76,
+      "name": "Motorcycle race(s)",
+      "markets": []
+    },
+    "77": {
+      "id": 77,
+      "name": "Golf",
+      "markets": []
+    },
+    "78": {
+      "id": 78,
+      "name": "Badminton",
+      "markets": []
+    },
+    "80": {
+      "id": 80,
+      "name": "Speedway",
+      "markets": []
+    },
+    "82": {
+      "id": 82,
+      "name": "Floorball",
+      "markets": []
+    },
+    "93": {
+      "id": 93,
+      "name": "Bowls",
+      "markets": []
+    },
+    "94": {
+      "id": 94,
+      "name": "Rugby League",
+      "markets": []
+    },
+    "95": {
+      "id": 95,
+      "name": "E Sports",
+      "markets": []
+    },
+    "96": {
+      "id": 96,
+      "name": "Squash",
+      "markets": []
+    },
+    "97": {
+      "id": 97,
+      "name": "Horse Racing",
+      "markets": []
+    },
+    "99": {
+      "id": 99,
+      "name": "Gaelic football",
+      "markets": []
+    },
+    "101": {
+      "id": 101,
+      "name": "Netball",
+      "markets": []
+    },
+    "106": {
+      "id": 106,
+      "name": "Greyhound racing",
+      "markets": []
+    },
+    "113": {
+      "id": 113,
+      "name": "Nascar",
+      "markets": []
+    }
+}

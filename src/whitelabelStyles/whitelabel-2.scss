@@ -1,0 +1,119 @@
+.tablet {
+  .bet-history-button, .betslip-button {
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.8;
+  }
+
+  .bet-history-button {
+    bottom: 8rem;
+  }
+
+  .betslip-button {
+    bottom: 4rem;
+  }
+
+  .bet-history-button__icon svg, .betslip-button__icon svg {
+    fill: rgb(0, 0, 0);
+  }
+
+  .betslip-button__count {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    color: var(--color-black);
+  }
+
+  .bet-history-item-mobile__game-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.925rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+
+    .event-row-time {
+      border-inline-end: none;
+      padding-inline-end: 0;
+      color: red
+    }
+  }
+
+
+  .bet-history-item-mobile__game-body {
+    background-color: var(--color-text);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+
+    .bet-history-item-mobile__game-team-icon {
+      fill: var(--color-active-contrast);
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    .bet-history-item-mobile__row {
+      color: var(--color-active-contrast);
+    }
+
+    .bet-history-item-mobile__game-team {
+      font-size: 1rem;
+    }
+
+    .bet-history-item-mobile__game-team-score-item {
+      color: var(--color-active);
+      font-size: 1rem;
+    }
+  }
+}
+
+.event-row__details {
+  margin-top: 0.5rem;
+  font-size: 0.99rem;
+}
+
+.ticket__simple {
+  height: 1.84rem;
+}
+
+.ticket__title {
+  font-size: 1.4rem;
+}
+
+.ticket__live {
+  padding: 0.2rem 0.45rem 0;
+  height: 1.4rem;
+  font-size: 0.89rem;
+}
+
+.ticket__checkbox {
+  margin-top: 0.25rem;
+
+  span {
+    font-size: 0.975rem;
+  }
+}
+
+.ticket {
+  .event-row-teams {
+    flex-direction: row;
+  }
+
+  .event-row-score {
+    margin-inline-end: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-active);
+  }
+
+  .event-row-team-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-active-contrast);
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    padding-inline-end: 0.5rem;
+  }
+}

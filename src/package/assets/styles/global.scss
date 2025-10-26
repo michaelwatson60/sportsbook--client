@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: 'GT Walsheim Pro', "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--color-background);
+}
+
+.hidden {
+  display: none;
+}
+
+.App {
+  padding: 0.5rem 1.25rem;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 800px) {
+      padding: 0;
+  }
+}
+
+//@media screen and (max-width: 782px){
+//  html {
+//    font-size: 14px;
+//  }
+//}
+//
+//@media screen and (max-width: 450px){
+//  html {
+//    font-size: 12px;
+//  }
+//}

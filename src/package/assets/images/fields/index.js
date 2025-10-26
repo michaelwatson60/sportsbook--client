@@ -1,0 +1,9 @@
+export { ReactComponent as TennisField } from './tennis-field.svg';
+export { ReactComponent as BasketballField } from './basketball-field.svg';
+export { ReactComponent as HandballField } from './handball-field.svg';
+export { ReactComponent as IceHockeyField } from './icehockey-field.svg';
+export { ReactComponent as VolleyballField } from './volleyball-field.svg';
+export { ReactComponent as TableTennisField } from './volleyball-field.svg';
+export { ReactComponent as CricketField } from './cricket-field.svg';
+export { ReactComponent as FootballField } from './football-field.svg';
+export { ReactComponent as FutsalField } from './futsal.svg';

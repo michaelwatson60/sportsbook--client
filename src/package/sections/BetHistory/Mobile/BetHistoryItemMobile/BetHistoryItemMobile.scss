@@ -1,0 +1,182 @@
+.bet-history-item-mobile {
+  margin-bottom: 0.5rem;
+}
+
+/* Head */
+.bet-history-item-mobile__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.2rem;
+  padding: 0 1rem;
+  background-color: var(--color-second);
+  font-size: 0.875rem;
+  color: var(--color-active);
+}
+
+.bet-history-item-mobile__head-id {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bet-history-item-mobile__head-id-circle {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--color-active);
+  border-radius: 50%;
+  margin-inline-end: 0.5rem;
+}
+
+.bet-history-item-mobile__head-status {
+  text-transform: capitalize;
+}
+
+/* Body */
+.bet-history-item-mobile__body {
+  background-color: var(--color-betslip-bg);
+  padding: 0.25rem 1rem;
+  font-size: 0.75rem;
+}
+
+.bet-history-item-mobile__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-text);
+  padding: 0.25rem 0;
+  text-transform: capitalize;
+}
+
+.bet-history-item-mobile__row--success > span:nth-child(2) {
+  color: var(--color-increment);
+}
+
+/* Games */
+.bet-history-item-mobile__games {}
+
+.bet-history-item-mobile__game {
+  color: var(--sb-light);
+}
+
+.bet-history-item-mobile__game-head {
+  background-color: var(--color-second);
+  font-size: 0.625rem;
+  color: var(--color-text);
+  padding: 0.25rem 1rem;
+  text-align: center;
+}
+
+.bet-history-item-mobile__game-body {
+  background-color: var(--color-betslip-bg);
+  padding: 0.25rem 1rem;
+  font-size: 0.75rem;
+}
+
+.bet-history-item-mobile__game-status-icon {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.bet-history-item-mobile__game-status-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.bet-history-item-mobile__game-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.bet-history-item-mobile__game-team-icon {
+  display: flex;
+  margin-inline-end: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white;
+}
+
+.bet-history-item-mobile__game-teams {
+  flex-grow: 1;
+}
+
+.bet-history-item-mobile__game-team {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  flex-grow: 1;
+}
+
+.bet-history-item-mobile__game-team-score {
+  display: flex;
+  align-items: center;
+}
+
+.bet-history-item-mobile__game-team-score-item {
+  display: inline-block;
+  color: var(--sb-active-color);
+  padding-inline-end: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.bet-history-item-mobile__game-date {
+  font-size: 0.625rem;
+}
+
+/* Collapse */
+.bet-history-item-mobile__collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sb-light);
+  text-transform: capitalize;
+  background-color: var(--color-inactive);
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.bet-history-item-mobile__collapse-icon {
+  display: flex;
+  margin-inline-start: 0.5rem;
+}
+
+.bet-history-item-mobile__collapse-icon svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: var(--sb-light);
+  transform: scaleY(-1);
+  transition: var(--sb-transition);
+}
+
+.bet-history-item-mobile__collapse-icon--active svg {
+  transform: scaleY(1);
+}
+
+/* Cashout */
+.bet-history-item-mobile__cashout {
+  padding: 1rem 2rem;
+}
+
+.bet-history-item-mobile__cashout-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(2.18rem + 2px);
+  background-color: var(--color-active);
+  border: none;
+  color: var(--am-white);
+  border-radius: 0.187rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bet-history-item-mobile__cashout-button > button > span {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}

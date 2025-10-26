@@ -1,0 +1,84 @@
+@keyframes Ellipse-Path-1_sw {
+  0% {
+    stroke-width: 50px;
+    animation-timing-function: cubic-bezier(0.333, 0, 0.188, 1);
+  }
+
+  66.7% {
+    stroke-width: 20px;
+  }
+
+  100% {
+    stroke-width: 20px;
+  }
+}
+
+@keyframes Ellipse-Path-1_do {
+  0% {
+    stroke-dashoffset: -1001.7px;
+    animation-timing-function: cubic-bezier(0.333, 0, 0.096, 1);
+  }
+
+  66.7% {
+    stroke-dashoffset: 0px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes Success_Tick_v {
+  0% {
+    visibility: hidden;
+    animation-timing-function: steps(1);
+  }
+
+  13.3% {
+    visibility: visible;
+    animation-timing-function: steps(1);
+  }
+
+  100% {
+    visibility: visible;
+    animation-timing-function: steps(1);
+  }
+}
+
+@keyframes Path-1_sw {
+  0% {
+    stroke-width: 15px;
+  }
+
+  13.3% {
+    stroke-width: 15px;
+    animation-timing-function: cubic-bezier(0.333, 0, 0.146, 1);
+  }
+
+  83.3% {
+    stroke-width: 30px;
+  }
+
+  100% {
+    stroke-width: 30px;
+  }
+}
+
+@keyframes Path-1_do {
+  0% {
+    stroke-dashoffset: -202.234px;
+  }
+
+  13.3% {
+    stroke-dashoffset: -202.234px;
+    animation-timing-function: cubic-bezier(0.333, 0, 0.113, 1);
+  }
+
+  83.3% {
+    stroke-dashoffset: -404.469px;
+  }
+
+  100% {
+    stroke-dashoffset: -404.469px;
+  }
+}

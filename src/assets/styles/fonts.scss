@@ -1,0 +1,212 @@
+//================== GT Walsheim Pro ==================
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Light'), local('GTWalsheimPro-Light'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Light.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Regular'), local('GTWalsheimPro-Regular'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Regular.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Thin'), local('GTWalsheimPro-Thin'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Thin.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Ultra';
+  src: local('GT Walsheim Pro Ultra Bold'), local('GTWalsheimPro-UltraBold'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-UltraBold.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-UltraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Bold'), local('GTWalsheimPro-Bold'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Bold.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Medium'), local('GTWalsheimPro-Medium'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Medium.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Ultra';
+  src: local('GT Walsheim Pro Ultra Light'), local('GTWalsheimPro-UltraLight'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-UltraLight.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Black'), local('GTWalsheimPro-Black'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Black.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Cond Ultra';
+  src: local('GT Walsheim Pro Condensed Ultra Bold'), local('GTWalsheimPro-CondensedUltraBold'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedUltraBold.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedUltraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: local('GT Walsheim Pro Condensed Light'), local('GTWalsheimPro-CondensedLight'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedLight.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: local('GT Walsheim Pro Condensed Thin'), local('GTWalsheimPro-CondensedThin'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedThin.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Cond';
+  src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: local('GT Walsheim Pro Condensed Regular'), local('GTWalsheimPro-CondensedRegular'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedRegular.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: local('GT Walsheim Pro Condensed Bold'), local('GTWalsheimPro-CondensedBold'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedBold.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro-CondensedULight';
+  src: local('GT Walsheim Pro Condensed Ultra Light'), local('GTWalsheimPro-CondensedUltraLight'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedUltraLight.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedUltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: local('GT Walsheim Pro Condensed Black'), local('GTWalsheimPro-CondensedBlack'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedBlack.woff2') format('woff2'),
+  url('./../fonts/GTWalsheimPro/GTWalsheimPro-CondensedBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+//================== Roboto ==================
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Light.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+//================== Libre Barcode 39 ==================
+
+@font-face {
+  font-family: 'Libre Barcode 39';
+  src: url('./../fonts/LibreBarcode39/LibreBarcode39-Regular.woff2') format('woff2'),
+  url('./../fonts/LibreBarcode39/LibreBarcode39-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

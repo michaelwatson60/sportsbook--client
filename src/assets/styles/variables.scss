@@ -1,0 +1,101 @@
+:root {
+  --color-background: rgb(229, 229, 229);
+  --color-background-dark: rgb(23, 26, 33);
+  --color-background-3: rgba(23, 26, 33, 0.3);
+  --color-background-7: rgba(23, 26, 33, 0.7);
+  --color-active-contrast: rgb(33, 39, 51);
+  --color-active: rgb(255, 177, 36);
+  --color-yellow: rgb(255, 177, 36);
+  --color-text: rgb(255, 255, 255);
+
+  --color-odd: rgb(255, 255, 255);
+  --color-odd-active: rgb(255, 177, 36);
+  --color-odd-text: rgb(33, 39, 51);
+
+  --color-placeholder: rgb(117, 117, 121);
+  --color-sport-icon: rgb(255, 255, 255);
+  --color-inactive: rgb(158, 173, 206);
+  --color-second: rgb(40, 47, 62);
+  --color-third: rgb(55, 64, 82);
+  --color-betslip-bg: rgb(49, 57, 74);
+  --color-increment: rgb(0, 152, 71);
+  --color-decrement: rgb(224, 0, 15);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-black--05: rgba(0, 0, 0, 0.5);
+
+  --color-correctScore: rgb(224, 224, 224);
+
+  --color-skeleton: rgb(40, 47, 62);
+  --color-skeleton-bg: rgb(49, 57, 74);
+
+  --color-match-board: rgb(40, 49, 66);
+
+
+  //--color-active-contrast: rgb(255, 255, 255);
+  //--color-text: rgb(67, 67, 67);
+  //--color-second: rgb(232, 177, 22);
+
+}
+
+[data-theme='purple'] {
+  --color-background-dark: rgb(35, 34, 61);
+  --color-background-3: rgba(22, 19, 35, .3);
+  --color-background-7: rgba(22, 19, 35, .7);
+  --color-odd-text: rgb(49, 49, 90);
+  --color-active-contrast: rgb(49, 49, 90);
+  --color-betslip-bg: rgb(49, 49, 90);
+  --color-second: rgb(46, 46, 83);
+  --color-active: rgb(137, 97, 255);
+  --color-odd-active: rgb(137, 97, 255);
+  --color-inactive: rgb(124, 123, 168);
+  --color-third: rgb(37, 34, 54);
+  --color-skeleton: rgb(33, 29, 46);
+  --color-skeleton-bg: rgb(61, 54, 82);
+}
+
+[data-theme='white-blue'] {
+  --color-background: rgb(25, 68, 122);
+  --color-background-dark: rgb(229, 230, 240);
+  --color-background-3: rgba(229, 230, 240, .3);
+  --color-background-7: rgba(229, 230, 240, .7);
+  --color-active-contrast: rgb(255, 255, 255);
+  --color-betslip-bg: rgb(255, 255, 255);
+  --color-active: rgb(25, 68, 122);
+  --color-sport-icon: rgb(25, 68, 122);
+  --color-text: rgb(25, 68, 122);
+  --color-odd: rgb(234, 235, 245);
+  --color-odd-active: rgb(250, 191, 56);
+  --color-odd-text: rgb(25, 68, 122);
+  --color-inactive:  rgb(175 175 189);
+  --color-third: rgb(243, 243, 247);
+  --color-skeleton: rgb(195, 195, 211);
+  --color-skeleton-bg: rgb(216, 213, 223);
+  --color-match-board: rgb(40, 40, 40);
+  --color-second: rgb(206, 206, 206);
+}
+
+
+[data-theme='black-red'] {
+  --color-active: rgb(185, 33, 34);
+}
+
+[data-theme='mg'] {
+  --color-odd-active: #E1BF7D;
+  --color-active: #E1BF7D;
+  --color-yellow: #E1BF7D;
+  --color-active-conrast: rgb(255, 255, 255);
+  --color-background-dark: rgb(84, 10, 61);
+  --color-background-3: rgba(22, 19, 35, .3);
+  --color-background-7: rgba(22, 19, 35, .7);
+  --color-odd-text: rgb(49, 49, 90);
+  --color-active-contrast: rgb(106 18 79);
+  --color-betslip-bg: rgb(109 31 85);
+  --color-second: rgb(46, 46, 83);
+  --color-inactive: rgb(175 175 189);
+  --color-third: rgb(37, 34, 54);
+  --color-skeleton: rgb(117, 24, 88);
+  --color-skeleton-bg: rgb(84, 10, 61);
+  --color-match-board: rgb(114 9 82);
+  --color-bakcground: rgb(255, 255, 255);
+}
