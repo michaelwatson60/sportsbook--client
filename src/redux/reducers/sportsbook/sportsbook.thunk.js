@@ -100,7 +100,7 @@ export const sportsbookExtraReducers = builder => {
       const { leagues, countries, sports } = normalizedMenu.entities;
 
       const topLeagues = getTopLeaguesIds().reduce((acc, id) => {
-        if (id in leagues) {
+        if (id in (leagues || {})) {
           acc.push(leagues[id]);
         }
         return acc;

@@ -27,7 +27,7 @@ const Tree = () => {
   const activeDate = useSelector(selectTreeDate);
 
   const activeTab = pathname.split('/')[4];
-  const sportName = sportGroups[sportId]?.name;
+  const sportName = (sportGroups || {})?.[sportId]?.name;
 
   const navLinks = useMemo(
     () => [

@@ -30,7 +30,7 @@ const MatchOdds = () => {
   const sportCountries = useSelector(selectSportsCountries);
   const { date } = useSelector(selectTree);
   const leaguesList = useMemo(() => {
-    if (!Object.keys(sportCountries).length) {
+    if (!Object.keys(sportCountries || {})?.length) {
       return null;
     }
     if (leagues === 'all') {
