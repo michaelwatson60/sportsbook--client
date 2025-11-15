@@ -1,23 +1,23 @@
 :root {
   --color-background: rgb(229, 229, 229);
-  --color-background-dark: rgb(23, 26, 33);
+  --color-background-dark: rgb(28, 28, 28);
   --color-background-3: rgba(23, 26, 33, 0.3);
   --color-background-7: rgba(23, 26, 33, 0.7);
-  --color-active-contrast: rgb(33, 39, 51);
-  --color-active: rgb(255, 177, 36);
+  --color-active-contrast: rgb(46, 46, 46);
+  --color-active: rgb(243, 197, 28);
   --color-yellow: rgb(255, 177, 36);
   --color-text: rgb(255, 255, 255);
 
   --color-odd: rgb(255, 255, 255);
-  --color-odd-active: rgb(255, 177, 36);
+  --color-odd-active: rgb(243 197 28);
   --color-odd-text: rgb(33, 39, 51);
 
   --color-placeholder: rgb(117, 117, 121);
   --color-sport-icon: rgb(255, 255, 255);
-  --color-inactive: rgb(158, 173, 206);
+  --color-inactive: rgba(255, 255, 255, 0.54);
   --color-second: rgb(40, 47, 62);
   --color-third: rgb(55, 64, 82);
-  --color-betslip-bg: rgb(49, 57, 74);
+  --color-betslip-bg: rgb(46, 46, 46);
   --color-increment: rgb(0, 152, 71);
   --color-decrement: rgb(224, 0, 15);
   --color-white: rgb(255, 255, 255);
@@ -26,10 +26,10 @@
 
   --color-correctScore: rgb(224, 224, 224);
 
-  --color-skeleton: rgb(40, 47, 62);
-  --color-skeleton-bg: rgb(49, 57, 74);
+  --color-skeleton: rgb(65, 67, 72);
+  --color-skeleton-bg: rgb(138, 139, 141);
 
-  --color-match-board: rgb(40, 49, 66);
+  --color-match-board: rgb(95, 102, 114);
 
 
   //--color-active-contrast: rgb(255, 255, 255);
@@ -67,7 +67,7 @@
   --color-odd: rgb(234, 235, 245);
   --color-odd-active: rgb(250, 191, 56);
   --color-odd-text: rgb(25, 68, 122);
-  --color-inactive:  rgb(175 175 189);
+  --color-inactive: rgb(61, 61, 97);
   --color-third: rgb(243, 243, 247);
   --color-skeleton: rgb(195, 195, 211);
   --color-skeleton-bg: rgb(216, 213, 223);
@@ -98,4 +98,4 @@
   --color-skeleton-bg: rgb(84, 10, 61);
   --color-match-board: rgb(114 9 82);
   --color-bakcground: rgb(255, 255, 255);
-}
+} 
