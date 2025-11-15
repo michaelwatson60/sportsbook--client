@@ -1,4 +1,28 @@
 import React, { useState } from 'react';
+import {
+  Ticket__styled,
+  TicketCheckbox__styled,
+  TicketTitle__styled,
+  TicketLive__styled,
+  TicketAction__styled,
+  TicketSimple__styled,
+  TicketEvent__styled,
+  TicketInfo__styled,
+  TicketType__styled,
+  TicketCoefficient__styled,
+  TicketBet__styled,
+  TicketBetSum__styled,
+  TicketBetLabel__styled,
+  TicketBetInput__styled,
+  TicketBetWin__styled,
+  TicketBody__styled,
+  TicketRemove__styled,
+  TicketSuccess__styled,
+  TicketSuccessIcon__styled,
+  TicketMessage__styled,
+  TicketMessageIcon__styled,
+  TicketMessageText__styled,
+} from './Ticket.styled';
 import Checkbox from '../UI/Checkbox/Checkbox';
 import Button from '../UI/Button/Button';
 import { BETSLIP_TYPES } from '../../sections/Betslip/constants/betslip.constants';
@@ -7,22 +31,7 @@ import { useEffect } from 'react';
 import SuccessAnimation from '../SuccessAnimation/SuccessAnimation';
 import { useTranslation } from 'react-i18next';
 import { useOddFormat } from '../../providers/OddFormatProvider/OddFormatProvider';
-import { useSelector } from 'react-redux';
-import {
-  selectEventById,
-  selectPrice,
-} from '@/redux/reducers/sport/sport.selector';
-import { dispatch } from '@/redux/store';
-import { updateBetslip } from '@/redux/reducers/betslip/betslip.slice';
-import './Ticket.scss';
-import useEvent from '@/hooks/useEvent';
-import BetslipEventRowDetails from '@/package/sections/Betslip/components/BetslipEventRowTime/BetslipEventRowTime';
-import BetslipEventRowTeams from '@/package/sections/Betslip/components/BetSlipEventRowTeam/BetslipEventRowTeams';
-
 const { SINGLE, SYSTEM } = BETSLIP_TYPES;
-
-const whiteLabelFlag = process.env.REACT_APP_LABEL_FLAG;
-const whitelabel2 = whiteLabelFlag === 'whitelabel-2';
 
 const Ticket = ({
   bet,
@@ -35,205 +44,96 @@ const Ticket = ({
   onBetCheck,
   currency,
   ticketRef,
-  setBetDisabled,
-  loading,
 }) => {
   const { convertOdd } = useOddFormat();
-  const {
-    marketCode,
-    T1,
-    T2,
-    name,
-    h,
-    rate,
-    isLive,
-    success,
-    ref,
-    eventId,
-    removed,
-    param,
-  } = bet;
-
-  const { team1Name, team2Name, countryId, countryName, leagueName } =
-    useEvent(eventId);
-
-  const eventData = useSelector(state => selectEventById(state, eventId));
-  const odd = useSelector(state => selectPrice(state, ref));
+  const { marketCode, T1, T2, name, h, rate, isLive, success } = bet;
   const [simple, setSimple] = useState(false);
   const { t } = useTranslation(['markets2', 'translation']);
 
   useEffect(() => {
     if (success) {
-      setBetDisabled(true);
       setTimeout(() => {
         onDelete();
-        setBetDisabled(false);
       }, 2400);
     }
   }, [success]);
 
-  useEffect(() => {
-    if (!loading) {
-      let updatedData = {};
-
-      if (!eventData && (!removed || isLive)) {
-        updatedData = {
-          removed: true,
-          isLive: false,
-        };
-      } else if (
-        eventData &&
-        odd &&
-        (rate !== odd.rate || !!isLive !== !!eventData.isLive || removed)
-      ) {
-        updatedData = {
-          rate: odd.rate,
-          isLive: !!eventData.isLive,
-          lastValue: odd.lastValue,
-          removed: false,
-        };
-      } else if (eventData && !odd && !removed) {
-        updatedData = {
-          removed: true,
-        };
-      }
-      if (Object.keys(updatedData).length > 0) {
-        dispatch(
-          updateBetslip({
-            path: `bets>${ref}`,
-            value: { ...bet, ...updatedData },
-          }),
-        );
-      }
-    }
-  }, [loading, eventData, odd, rate, isLive, removed]);
-
-  const ticketClass =
-    `ticket` +
-    (error ? ' ticket--error' : '') +
-    (success ? ' ticket--success' : '');
-
   return (
-    <div className={ticketClass} ref={ticketRef}>
+    <Ticket__styled error={error} success={success} ref={ticketRef}>
       {activeType === SYSTEM && (
-        <div className="ticket__action">
-          <div className="ticket__checkbox">
+        <TicketAction__styled>
+          <TicketCheckbox__styled>
             <Checkbox checked={checked} onChange={onBetCheck} forTicket />
-          </div>
-          <div className="ticket__simple">
+          </TicketCheckbox__styled>
+          <TicketSimple__styled>
             <Button
-              onClick={() => setSimple(prev => !prev)}
-              icon="b-button"
+              onClick={() => setSimple(prevState => !prevState)}
+              icon={'b-button'}
               fill={simple ? 'var(--color-black)' : 'var(--color-black--05)'}
             />
-          </div>
-        </div>
+          </TicketSimple__styled>
+        </TicketAction__styled>
       )}
-
-      <div className="ticket__body">
-        <div className="ticket__info">
-          <div className="ticket__event">
-            {isLive && (
-              <div className="ticket__live">{t('translation:live')}</div>
-            )}
-            <div className="ticket__title">
+      <TicketBody__styled>
+        <TicketInfo__styled>
+          <TicketEvent__styled>
+            <TicketTitle__styled>
               {T1} vs. {T2}
-            </div>
-          </div>
-          {whitelabel2 && (
-            <>
-              {isLive && (
-                <BetslipEventRowDetails
-                  eventId={eventId}
-                  countryId={countryId}
-                  countryName={countryName}
-                  leagueName={leagueName}
-                />
-              )}
-              {isLive && (
-                <BetslipEventRowTeams
-                  eventId={eventId}
-                  T1={team1Name}
-                  T2={team2Name}
-                />
-              )}
-            </>
-          )}
-
-          <div className="ticket__type">{t('markets:' + marketCode)}</div>
-
-          <div className="ticket__coefficient">
+            </TicketTitle__styled>
+          </TicketEvent__styled>
+          <TicketType__styled>{t('markets:' + marketCode)}</TicketType__styled>
+          <TicketCoefficient__styled>
             <span>
+              {isLive && (
+                <TicketLive__styled>{t('translation:live')}</TicketLive__styled>
+              )}
               {name}
-              {!!h && ` (${h})`} {!!param && ` [${param}]`}
+              {!!h && ` (${h})`}
             </span>
             <span>{convertOdd(rate)}</span>
-          </div>
-        </div>
-
+          </TicketCoefficient__styled>
+        </TicketInfo__styled>
         {activeType === SINGLE && (
-          <div className="ticket__bet">
-            <div className="ticket__bet-sum">
-              <label className="ticket__bet-label">
-                <input
-                  className="ticket__bet-input"
+          <TicketBet__styled>
+            <TicketBetSum__styled>
+              <TicketBetLabel__styled>
+                <TicketBetInput__styled
                   placeholder="Stake"
                   value={amount}
                   onChange={onAmountChange}
                 />
-              </label>
-            </div>
-            <div className="ticket__bet-win">
+              </TicketBetLabel__styled>
+            </TicketBetSum__styled>
+            <TicketBetWin__styled>
               Win: {numberWithCommas(amount * rate, true)} {currency}
-            </div>
-          </div>
-        )}
-
-        {removed && (
-          <div className="ticket__message ellipsis">
-            <div className="ticket__message-icon">
-              <svg>
-                <use xlinkHref="#error" />
-              </svg>
-            </div>
-            <div className="ticket__message-text ellipsis" title={error}>
-              {t('unavailableOdd', {
-                defaultValue: 'This odd is no longer available',
-              })}
-            </div>
-          </div>
+            </TicketBetWin__styled>
+          </TicketBet__styled>
         )}
 
         {typeof error === 'string' && (
-          <div className="ticket__message ellipsis">
-            <div className="ticket__message-icon">
+          <TicketMessage__styled className={'ellipsis'}>
+            <TicketMessageIcon__styled>
               <svg>
-                <use xlinkHref="#error" />
+                <use xlinkHref={'#error'} />
               </svg>
-            </div>
-            <div className="ticket__message-text ellipsis" title={error}>
+            </TicketMessageIcon__styled>
+            <TicketMessageText__styled className={'ellipsis'} title={error}>
               {error}
-            </div>
-          </div>
+            </TicketMessageText__styled>
+          </TicketMessage__styled>
         )}
-      </div>
-
-      <div className="ticket__remove">
-        <Button
-          onClick={onDelete}
-          icon="close"
-          fill="var(--color-active-contrast)"
-        />
-      </div>
-
+      </TicketBody__styled>
+      <TicketRemove__styled>
+        <Button onClick={onDelete} icon={'close'} fill={'#565555'} />
+      </TicketRemove__styled>
       {success && (
-        <div className="ticket__success">
-          <div className="ticket__success-icon">
+        <TicketSuccess__styled>
+          <TicketSuccessIcon__styled>
             <SuccessAnimation />
-          </div>
-        </div>
+          </TicketSuccessIcon__styled>
+        </TicketSuccess__styled>
       )}
-    </div>
+    </Ticket__styled>
   );
 };
 
