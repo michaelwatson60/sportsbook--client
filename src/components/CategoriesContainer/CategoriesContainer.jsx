@@ -4,6 +4,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Categories from '../../package/sections/Categories/Categories';
 import { THEMES, useTheme } from '../../providers/ThemProvider';
 import { selectIsSportsLoading } from '../../redux/reducers/sportsbook/sportsbook.slice';
+import { selectIsAuth } from '../../redux/reducers/auth/auth.slice';
+// import { selectIsAuth } from '../redux/reducers/auth/auth.slice';
 
 const configs = [
   { id: 50, name: 'Football' },
@@ -26,10 +28,12 @@ const CategoriesContainer = ({ isTree }) => {
   const { sportId } = useParams();
   const isSportsLoading = useSelector(selectIsSportsLoading);
   const { mode } = useTheme();
+  const isAuth = useSelector(selectIsAuth);
 
   const categories = useMemo(() => {
     const isPurple = mode === THEMES.PURPLE;
     const currentConfigs = isPurple ? purpleConfigs : configs;
+
     const formatedSports = currentConfigs.map(sport => {
       const path = isTree
         ? `/tree/${sport.id}/all/match-odds`
@@ -43,7 +47,20 @@ const CategoriesContainer = ({ isTree }) => {
         },
       };
     });
+
     return [
+      ...(isAuth
+        ? [
+            {
+              id: 'mybets',
+              name: 'My Bets',
+              is3D: isPurple,
+              cb() {
+                navigate('/bet-history');
+              },
+            },
+          ]
+        : []),
       {
         id: 'live',
         name: 'live',
@@ -62,7 +79,7 @@ const CategoriesContainer = ({ isTree }) => {
         },
       },
     ];
-  }, [navigate, mode]);
+  }, [navigate, mode, isAuth]);
 
   return (
     <Categories

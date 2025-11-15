@@ -64,7 +64,7 @@ export const CategorySvg__styled = styled.svg`
   height: 100%;
   object-fit: cover;
   object-position: center;
-  fill: var(--color-active);
+  fill: var(--color-text);
 `;
 
 export const CategoryImg__styled = styled.img`
@@ -81,7 +81,7 @@ export const CategoryText__styled = styled.span`
   font-weight: 800;
   text-transform: capitalize;
   white-space: nowrap;
-  color: var(--color-active);
+  color: var(--color-text);
 
   ${({ skeleton }) =>
     skeleton &&
