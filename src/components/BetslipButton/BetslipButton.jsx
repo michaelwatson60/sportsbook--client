@@ -1,28 +1,29 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import './BetslipButton.scss';
+import {
+  BetslipButton__styled,
+  BetslipButtonContainer__styled,
+  BetslipButtonCount__styled,
+  BetslipButtonIcon__styled,
+} from './BetslipButton.styled';
 
-const whiteLabelFlag = process.env.REACT_APP_LABEL_FLAG;
-
-const whitelabel2 = whiteLabelFlag === 'whitelabel-2';
-
-const BetslipButton = ({ count = 4, onClick }) => {
-  const { t } = useTranslation();
+const BetslipButton = ({ count = 0, onClick }) => {
+  const n = Number(count) || 0;
+  if (n <= 0) {
+    return null;
+  }
 
   return (
-    <div className="betslip-button" onClick={onClick}>
-      <div className="betslip-button__inner">
-        <div className="betslip-button__icon">
+    <BetslipButtonContainer__styled onClick={onClick}>
+      <BetslipButton__styled>
+        <BetslipButtonIcon__styled>
           <svg>
-            <use xlinkHref={whitelabel2 ? '#betslipV2' : '#betslip'} />
+            <use xlinkHref="#betslip" />
           </svg>
-        </div>
-        {!whitelabel2 && (
-          <span className="betslip-button__text">{t('betSlip')}</span>
-        )}
-        <div className="betslip-button__count">{count}</div>
-      </div>
-    </div>
+        </BetslipButtonIcon__styled>
+        <span>betslip</span>
+        <BetslipButtonCount__styled>{n}</BetslipButtonCount__styled>
+      </BetslipButton__styled>
+    </BetslipButtonContainer__styled>
   );
 };
 

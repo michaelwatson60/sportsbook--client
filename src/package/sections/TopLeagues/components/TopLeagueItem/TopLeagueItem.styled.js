@@ -39,14 +39,14 @@ export const TopLeaguesItemButton__styled = styled.button`
 `;
 
 export const TopLeaguesIcon__styled = styled.div`
-  margin-inline-end: 0.5rem;
-  width: 1.19rem;
-  height: 1.19rem;
+  margin-inline-end: 0.7rem;
+  width: 1.5rem;
+  height: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-radius: 50%;
+  border-radius: 10%;
   overflow: hidden;
 `;
 

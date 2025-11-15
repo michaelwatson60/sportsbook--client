@@ -144,7 +144,7 @@ export const EventRowLigueName__styled = styled.div`
 
 export const EventRowLive__styled = styled.span`
   margin-inline-end: 0.5rem;
-  padding: 0.2rem 0.25rem 0;
+  padding: 0.1rem 0.25rem 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -153,9 +153,9 @@ export const EventRowLive__styled = styled.span`
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: var(--color-active-contrast);
-  background-color: var(--color-active);
-  border-radius: 3.125rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(251, 51, 51);
+  border-radius: 0.225rem;
 `;
 
 export const EventRowBet__styled = styled.div`

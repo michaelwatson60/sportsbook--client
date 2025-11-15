@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import CategoriesContainer from '../../components/CategoriesContainer/CategoriesContainer';
 import Upcoming from '../../components/Upcoming/Upcoming';
 import Dates from '../../package/sections/Dates/Dates';
+import Header from '../../package/sections/Header/Header';
 import { Home__styled, HomeSearch__styled } from './Home.styled';
 import { useMediaQuery } from '@react-hook/media-query';
 import { setTreeDate } from '../../redux/reducers/sportsbook/sportsbook.slice';
@@ -12,7 +13,6 @@ import HomeLive from '../../components/HomeLive/HomeLive';
 import HomeTopEvents from '../../components/HomeTopEvents/HomeTopEvents';
 import TopCardsContainer from '../../components/TopCardsContainer/TopCardsContainer';
 import GameSearchContainer from '../../components/GameSearchContainer/GameSearchContainer';
-import Settings from '../../package/components/Settings/Settings';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -27,9 +27,8 @@ const Home = () => {
   const isMobile = useMediaQuery('only screen and (max-width: 800px)');
   return (
     <Home__styled>
-      <Settings dates>
-        <Dates onDateClick={onDateClick} />
-      </Settings>
+      <Header />
+      <Dates onDateClick={onDateClick} />
       <CategoriesContainer />
       <TopCardsContainer />
       {isMobile && (

@@ -19,11 +19,11 @@ const Settings = ({ children, dates }) => {
     <Wrapper__styled>
       <WrapperInner__styled>
         <Children__styled>{children}</Children__styled>
-        <Button__styled onClick={onOpen} dates={dates}>
+        {/* <Button__styled onClick={onOpen} dates={dates}>
           <svg>
             <use xlinkHref={'#settings'} />
           </svg>
-        </Button__styled>
+        </Button__styled> */}
       </WrapperInner__styled>
     </Wrapper__styled>
   );

@@ -1,7 +1,16 @@
 import styled, { css } from 'styled-components';
 import { Scroller__styled } from '../../components/Scroller/Scroller.styled';
 
-export const Date__styled = styled.div`
+export const Wrapper__styled = styled.section`
+padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #2d2d2d;
+`;
+
+export const Header__styled = styled.div`
   margin-top: 0.4rem;
   margin-bottom: 0.25rem;
   width: 100%;
@@ -78,6 +87,7 @@ export const HeaderList__styled = styled.ul`
 
 // item LI
 export const HeaderItem__styled = styled.li`
+  
   position: sticky;
   top: 0;
   display: grid;
@@ -96,14 +106,20 @@ export const Headertop__styled = styled.button`
   border: none;
   outline: none;
   border-radius: 0.25rem;
-  background-color: var(--color-active-contrast);
+  background-color: #2d2d2d;
   padding: 0 0.25rem;
 
-  ${props =>
-    props.active &&
+  ${({ $isFirst }) =>
+    $isFirst &&
     css`
-      border-bottom: 0.19rem solid var(--color-active);
+      background-color: #444; /* special color for first item */
     `};
+
+  ${({ active }) =>
+    active &&
+    css`
+      border-bottom: 0.19rem solid #383838;
+    `}
 `;
 
 export const DateButton__styled = styled.button`

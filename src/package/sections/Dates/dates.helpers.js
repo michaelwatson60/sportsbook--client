@@ -17,19 +17,25 @@ import 'dayjs/locale/tr';
 import 'dayjs/locale/vi';
 import 'dayjs/locale/zh-cn'; // Note: Day.js uses 'zh-cn' for Chinese
 
+const capitalizeFirst = str => str.charAt(0).toUpperCase() + str.slice(1);
+
 export const getUpcomingDates = (lang, t) => {
   const dates = [];
   for (let i = 0; i < 8; i++) {
     const date = dayjs(Date.now() + i * 8.64e7).locale(lang); // set the locale
+    const dayShort = date.format('ddd'); // ex: "dim.", "lun."
+
     dates.push({
-      title: i ? date.format('ddd') : 'Today',
-      day: date.format('DD/MM'),
+      title: i ? capitalizeFirst(dayShort) : 'Today', // or t('today')
+      day: date.format('DD'),
       full: date,
     });
   }
+
   dates.push({
     title: t('all'),
     full: 'all',
   });
+
   return dates;
 };
