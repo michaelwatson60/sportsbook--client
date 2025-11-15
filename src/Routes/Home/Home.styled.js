@@ -8,27 +8,35 @@ export const Home__styled = styled.section`
   max-height: 100%;
   overflow-y: auto;
 
+  /* space-y like Tailwind */
+  --stack-gap: 1rem;
+  & > * + * {
+    margin-top: var(--stack-gap);
+  }
+
   &::-webkit-scrollbar {
     display: none;
   }
 
-  @media screen and (max-width: 1366px) {
+  @media (max-width: 1366px) {
     max-width: calc(100% - 38.7rem);
   }
 
-  @media screen and (max-width: 1024px) {
+  @media (max-width: 1024px) {
     margin-inline-end: 0;
     width: 84.37%;
     min-width: calc(100% - 19.35rem);
+    --stack-gap: 0.875rem; /* tighter on tablet */
   }
 
-  @media screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     margin: 0;
     max-width: 100%;
     width: 100%;
     height: 100%;
     max-height: unset;
     overflow-y: unset;
+    --stack-gap: 0.9rem; /* mobile */
   }
 `;
 
