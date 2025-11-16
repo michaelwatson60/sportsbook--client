@@ -12,7 +12,6 @@ export const FavouritesHead__styled = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-background);
 `;
 
 export const FavouritesIcon__styled = styled.div`

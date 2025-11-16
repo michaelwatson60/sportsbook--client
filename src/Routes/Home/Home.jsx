@@ -13,6 +13,7 @@ import HomeLive from '../../components/HomeLive/HomeLive';
 import HomeTopEvents from '../../components/HomeTopEvents/HomeTopEvents';
 import TopCardsContainer from '../../components/TopCardsContainer/TopCardsContainer';
 import GameSearchContainer from '../../components/GameSearchContainer/GameSearchContainer';
+import Favourites from '../../components/Favourites/Favourites';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -29,6 +30,7 @@ const Home = () => {
     <Home__styled>
       <Header />
       <Dates onDateClick={onDateClick} />
+      <Favourites />
       <CategoriesContainer />
       <TopCardsContainer />
       {isMobile && (
