@@ -13,7 +13,7 @@ import {
 } from './redux/reducers/betslip/betslip.slice';
 import BetslipContainer from './components/BetslipContainer/BetslipContainer';
 import Popups from './package/components/Popups/Popups';
-import BetHistoryButton from './components/BetHistoryButton/BetHistoryButton';
+// import BetHistoryButton from './components/BetHistoryButton/BetHistoryButton';
 import { selectIsAuth } from './redux/reducers/auth/auth.slice';
 import classNames from 'classnames';
 const isWidget = location.pathname.split('/')[1] === 'widget';
@@ -41,6 +41,8 @@ function App() {
     return routes;
   }
 
+  console.log(isAuth);
+
   return (
     <div
       className={classNames('App content', {
@@ -55,7 +57,7 @@ function App() {
       {isTablet && isBetslipOpen && <BetslipContainer />}
       {isTablet && !isBetslipOpen && (
         <>
-          {isAuth && <BetHistoryButton />}
+          {/* {isAuth && <BetHistoryButton />} */}
           <BetslipButton
             onClick={() => dispatch(openBetslip())}
             count={betslipCount}
