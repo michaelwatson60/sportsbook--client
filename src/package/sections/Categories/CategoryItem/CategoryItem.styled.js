@@ -10,7 +10,7 @@ export const CategoryItem__styled = styled.li`
   border-radius: 0.375rem;
   overflow: hidden;
   border-bottom: 0.19rem solid var(--color-betslip-bg);
-  background-color: var(--color-betslip-bg);
+  background-color: rgb(28 28 28);
 
   ${props =>
     props.count &&

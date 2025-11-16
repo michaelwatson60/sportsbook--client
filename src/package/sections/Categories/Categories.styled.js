@@ -3,11 +3,14 @@ import { Scroller__styled } from '../../components/Scroller/Scroller.styled';
 
 export const Category__styled = styled.div`
   margin-bottom: 0.25rem;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  background-color: rgb(46, 46, 46);
 
   @media screen and (min-width: 1025px) {
     &:hover {
