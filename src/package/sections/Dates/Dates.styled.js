@@ -129,7 +129,7 @@ export const DateButton__styled = styled.button`
 export const DateWeekDay__styled = styled.span`
   display: inline-block;
   margin-inline-end: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--color-text);
 `;
