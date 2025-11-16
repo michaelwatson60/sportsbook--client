@@ -7,7 +7,7 @@ export const TopLeaguesItem__styled = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid var(--color-background-dark);
+  border-bottom: 1px solid rgb(45, 45, 45);
 
   @media screen and (max-width: 1024px) {
     width: 50%;
@@ -30,7 +30,7 @@ export const TopLeaguesItemButton__styled = styled.button`
   border: none;
   outline: none;
   text-align: start;
-  background-color: transparent;
+  background-color: rgb(28, 28, 28);
   ${props =>
     !props.skeleton &&
     css`
@@ -58,7 +58,7 @@ export const TopLeaguesImg__styled = styled.img`
 `;
 
 export const TopLeaguesName__styled = styled.div`
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--color-text);
   ${props =>

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Favourites__styled = styled.div`
   width: 100%;
   border-radius: 0.375rem;
+  height: 3.2rem;
   overflow: hidden;
   background-color: var(--color-active-contrast);
 `;

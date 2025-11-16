@@ -3,7 +3,7 @@ import { Scroller__styled } from '../../components/Scroller/Scroller.styled';
 
 export const Category__styled = styled.div`
   margin-bottom: 0.25rem;
-  padding-top: 0.3rem;
+  padding-top: 0.4rem;
   padding-left: 0.3rem;
   width: 100%;
   display: flex;

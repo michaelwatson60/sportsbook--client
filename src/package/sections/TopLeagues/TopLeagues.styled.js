@@ -32,6 +32,7 @@ export const TopLeaguesList__styled = styled.ul`
   padding: 0;
   list-style-type: none;
 
+  padding: 0.3rem;
   @media screen and (max-width: 1024px) {
     display: flex;
     align-items: center;
