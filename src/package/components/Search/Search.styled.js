@@ -24,7 +24,7 @@ export const SearchLabel__styled = styled.label`
 export const SearchInput__styled = styled.input`
   padding-inline-start: 0.25rem;
   width: calc(100% - 1.375rem);
-  font-size: 0.875rem;
+  font-size: 1.875rem;
   font-weight: 400;
   color: var(--color-placeholder);
   background-color: transparent;
