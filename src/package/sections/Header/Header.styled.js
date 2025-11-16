@@ -2,8 +2,8 @@ import styled, { css } from 'styled-components';
 import { Scroller__styled } from '../../components/Scroller/Scroller.styled';
 
 export const Wrapper__styled = styled.section`
-padding-top: 0.25rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
   position: sticky;
   top: 0;
   z-index: 2;
