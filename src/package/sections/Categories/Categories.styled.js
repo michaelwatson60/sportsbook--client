@@ -24,6 +24,7 @@ export const Category__styled = styled.div`
 export const CategoryList__styled = styled.ul`
   margin: 0;
   padding: 0 0 0.25rem 0;
+  margin-right: 0.5rem;
   list-style-type: none;
   width: 100%;
   display: flex;

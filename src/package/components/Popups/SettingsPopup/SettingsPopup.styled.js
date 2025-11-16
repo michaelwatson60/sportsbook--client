@@ -13,7 +13,7 @@ export const WrapperInner__styled = styled.div`
 `;
 
 export const Children__styled = styled.div`
-  width: calc(100% - 2.7rem);
+  width: calc(100%);
 `;
 
 export const Button__styled = styled.button`
