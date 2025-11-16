@@ -87,7 +87,6 @@ export const HeaderList__styled = styled.ul`
 
 // item LI
 export const HeaderItem__styled = styled.li`
-  
   position: sticky;
   top: 0;
   display: grid;
