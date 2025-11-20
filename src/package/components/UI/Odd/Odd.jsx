@@ -95,7 +95,7 @@ const Odd = ({
         )}
         {!isCoefficientInvalid && !oneMinute && oddsCount && (
           <OddName__styled>
-            {name} {handicapValue} {param && ` [${param}]`}
+            {name}
           </OddName__styled>
         )}
         <OddCoefficient__styled>

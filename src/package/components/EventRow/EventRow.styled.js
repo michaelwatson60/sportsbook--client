@@ -10,7 +10,7 @@ export const EventRowMain__styled = styled.div`
   height: max-content;
   display: flex;
   justify-content: flex-start;
-  border-bottom: 1px solid var(--color-background-dark);
+  border-bottom: 6px solid var(--color-background-dark);
 `;
 
 export const EventRowCommon__styled = styled.div`

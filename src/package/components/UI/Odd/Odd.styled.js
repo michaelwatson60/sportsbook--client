@@ -2,14 +2,14 @@ import styled, { css } from 'styled-components';
 
 export const Odd__styled = styled.div`
   width: 4rem;
-  height: 2.625rem;
+  height: 41.33px;
   margin-inline-end: 0.5rem;
   margin-bottom: 0.5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 0.375rem;
+  border-radius: 0.2rem;
   overflow: ${props => (props.isSelect ? 'visible' : 'hidden')};
 
   position: relative;
@@ -115,11 +115,11 @@ export const OddButton__styled = styled.button`
   align-items: center;
   justify-content: ${props =>
     props.forExpansionPanel ? 'space-between' : 'center'};
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--color-odd-text);
   background-color: ${props =>
-    props.active ? 'var(--color-odd-active)' : 'var(--color-odd)'};
+    props.active ? 'var(--color-odd-active)' : 'rgb(220, 220, 220)'};
   border: none;
   outline: none;
   cursor: pointer;
@@ -134,7 +134,7 @@ export const OddButton__styled = styled.button`
   ${props =>
     props.withSelect &&
     css`
-      border-radius: 0.375rem;
+      border-radius: 0.2rem;
       /* width: calc(100% - 3rem); */
       /* margin-inline-end: 0.25rem; */
     `};
@@ -152,6 +152,7 @@ export const OddButton__styled = styled.button`
 `;
 
 export const OddName__styled = styled.span`
+  color: rgba(0, 0, 0, 0.54);
   margin-inline-end: 0.5rem;
   display: flex;
   align-items: center;
@@ -209,7 +210,7 @@ export const OddOneMinuteIcon__styled = styled.span`
 export const OddOneMinuteName__styled = styled.span`
   margin: 0.25rem 0;
   display: inline-block;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--color-active-contrast);
 `;
@@ -222,6 +223,6 @@ export const OddSelect__styled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.375rem;
+  border-radius: 0.2rem;
   //overflow: hidden;
 `;

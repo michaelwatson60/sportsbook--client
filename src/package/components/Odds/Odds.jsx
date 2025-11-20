@@ -76,6 +76,7 @@ const Odds = ({ data, market, onOddClick, betslip = {}, isLive }) => {
             <Odd
               key={odd.code}
               checked={betslip[odd.ref]}
+              name={odd.name}
               data={odd}
               onOddClick={onOddClick}
               oddsCount={isMobile && oddsCount}
