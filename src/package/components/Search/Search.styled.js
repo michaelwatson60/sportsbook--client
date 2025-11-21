@@ -10,25 +10,25 @@ export const SearchForm__styled = styled.form`
   align-items: center;
   justify-content: center;
 `;
-
 export const SearchLabel__styled = styled.label`
-  padding: 0.25rem 0;
   width: 100%;
+  height: 2.75rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 0.25rem;
   background-color: var(--color-white);
+  padding: 0 0.5rem;
 `;
-
 export const SearchInput__styled = styled.input`
-  padding-inline-start: 0.25rem;
-  width: calc(100% - 1.375rem);
-  font-size: 1.875rem;
+  flex: 1;
+  padding: 0 0 0 0.25rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--color-placeholder);
   background-color: transparent;
   outline: none;
+  border: none;
 
   &::placeholder {
     color: var(--color-placeholder);
@@ -36,7 +36,6 @@ export const SearchInput__styled = styled.input`
     font-weight: 400;
   }
 `;
-
 export const SearchIcon__styled = styled.span`
   padding: 0.25rem;
   width: 1.375rem;
@@ -47,7 +46,6 @@ export const SearchIcon__styled = styled.span`
   cursor: pointer;
   margin-inline-end: 0.2rem;
 `;
-
 export const SearchSvg__styled = styled.svg`
   width: 100%;
   height: 100%;
