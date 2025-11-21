@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { renderHandicapValue } from '@/helpers/sportsbook.helpers';
 import {
   selectIsBetLoading,
   selectIsBetslipTimerStart,
@@ -30,15 +29,12 @@ const Odd = ({
   coefficient,
   lastCoefficient,
   oddsCount,
-  handicap,
-  withHandicap,
   oneMinute,
   oneMinuteIcon = 'football',
   oneMinuteName = 'Offside',
   select,
   market,
   blocked,
-  param,
 }) => {
   const isBetLoading = useSelector(selectIsBetLoading);
   const isBetslipTimerLoading = useSelector(selectIsBetslipTimerStart);
@@ -58,13 +54,6 @@ const Odd = ({
       onOddClick(data, market);
     }
   };
-
-  const handicapValue =
-    withHandicap &&
-    (!!handicap ||
-      (handicap === 0 &&
-        (market.code.includes('OU') || market.code.includes('AH')))) &&
-    renderHandicapValue(market.code, handicap, name);
 
   return (
     <Odd__styled
@@ -94,9 +83,7 @@ const Odd = ({
           </OddOneMinute__styled>
         )}
         {!isCoefficientInvalid && !oneMinute && oddsCount && (
-          <OddName__styled>
-            {name}
-          </OddName__styled>
+          <OddName__styled>{name}</OddName__styled>
         )}
         <OddCoefficient__styled>
           {blocked ? (
