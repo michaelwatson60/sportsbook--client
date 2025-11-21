@@ -29,43 +29,38 @@ export const SelectLabelClose__Styled = styled.div`
 `;
 
 export const Select__styled = styled.div`
-  width: ${props => (props.forOdds ? '4rem' : '')};
+  width: ${props => (props.forOdds ? '8rem' : '100%')};
+  @media (max-width: 768px) {
+    width: ${props => (props.forOdds ? '9rem' : '100%')};
+  }
   padding: ${props => (props.forOdds ? '0' : '0.5rem')};
   border: ${props => (props.forOdds ? 'none' : '1px solid var(--color-text)')};
   border-radius: 0.25rem;
   display: flex;
   align-items: center;
-  justify-content: ${props =>
-    props.forOdds || props.isOdd ? 'center' : 'space-between'};
   cursor: pointer;
-
-  ${props =>
-    props.isOdd &&
-    css`
-      width: 100%;
-      height: 100%;
-      ${SelectOpenIcon__styled} {
-        margin-inline-start: 0;
-        width: 0.875rem;
-        height: 0.875rem;
-      }
-    `}
+  /* we’ll handle spacing with flex + margin-left: auto */
+  justify-content: flex-start;
 `;
 
 export const SelectSelected__styled = styled.div`
-  width: fit-content;
-  max-width: 5.37rem;
   color: ${props => (props.color ? `${props.color}` : 'var(--color-text)')};
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
   text-transform: capitalize;
-  flex-grow: 0;
+
+  /* text takes available space */
+  flex: 1 1 auto;
+  min-width: 0; /* important for ellipsis if you use it */
+  /* optional spacing before arrow if you want */
+  /* margin-right: 0.5rem; */
 `;
 
 export const SelectOpenIcon__styled = styled(({ ...props }) => (
   <span {...props} />
 ))`
-  margin-inline-start: 0.5rem;
+  margin-left: auto; /* push to far right */
+  flex-shrink: 0; /* ⬅️ key: do NOT let the icon shrink */
   width: 0.875rem;
   height: 0.875rem;
   display: inline-flex;

@@ -22,27 +22,6 @@ export const SearchByBody__styled = styled.div`
   padding: 1rem 0.5rem 0.75rem;
 `;
 
-export const SearchByInner__styled = styled.div`
-  display: flex;
-  align-items: center;
-  background-color: var(--color-white);
-  border-radius: 0.25rem;
-`;
-
-export const SearchBySelect__styled = styled.div`
-  width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const SearchBySearch__styled = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 export const SearchByFooter__styled = styled.div`
   padding: 1rem 0;
   width: 100%;
@@ -62,4 +41,36 @@ export const SearchByFooter__styled = styled.div`
     font-size: 1rem;
     font-weight: 700;
   }
+`;
+
+export const SearchByInner__styled = styled.div`
+  display: flex;
+  align-items: stretch;
+`;
+
+// dark box for the select, like the screenshot
+export const SearchBySelect__styled = styled.div`
+  display: flex;
+  align-items: center;
+  background-color: rgb(56 56 56); /* dark background */
+  border: 1px solid rgb(255 255 255);
+  border-radius: 4px;
+  padding: 0 12px;
+  margin-right: 8px;
+
+  /* make the inner Select fill it */
+  width: 150px;
+
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-active-contrast);
+    width: 100%;
+    font-size: 14px;
+  }
+`;
+
+export const SearchBySearch__styled = styled.div`
+  flex: 1;
 `;
