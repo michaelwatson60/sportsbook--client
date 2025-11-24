@@ -48,7 +48,6 @@ export const SearchByInner__styled = styled.div`
   align-items: stretch;
 `;
 
-// dark box for the select, like the screenshot
 export const SearchBySelect__styled = styled.div`
   display: flex;
   align-items: center;
@@ -68,6 +67,11 @@ export const SearchBySelect__styled = styled.div`
     color: var(--color-active-contrast);
     width: 100%;
     font-size: 14px;
+  }
+
+  /* hide on tablets/desktop */
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
 

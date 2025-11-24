@@ -78,7 +78,7 @@ export const DateItem__styled = styled.li`
 export const HeaderList__styled = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 equal columns */
-  gap: 0.5rem;
+  gap: 1rem;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -108,10 +108,21 @@ export const Headertop__styled = styled.button`
   background-color: #2d2d2d;
   padding: 0 0.25rem;
 
+  &:hover {
+    background-color: #3a3a3a;
+  }
+
   ${({ $isFirst }) =>
     $isFirst &&
     css`
-      background-color: #444; /* special color for first item */
+      background-color: #444;
+      margin-left: 1rem;
+    `};
+
+  ${({ $isLast }) =>
+    $isLast &&
+    css`
+      margin-right: 1rem;
     `};
 
   ${({ active }) =>

@@ -49,7 +49,7 @@ const Header = () => {
             </Headertop__styled>
           </HeaderItem__styled>
           <HeaderItem__styled>
-            <Headertop__styled>
+            <Headertop__styled $isLast>
               <DateWeekDay__styled>
                 <svg
                   width="16"
