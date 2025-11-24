@@ -40,7 +40,6 @@ export const TopLeaguesItemButton__styled = styled.button`
 
 export const TopLeaguesIcon__styled = styled.div`
   margin-inline-end: 0.7rem;
-  width: 1.5rem;
   height: 1.3rem;
   display: flex;
   align-items: center;
