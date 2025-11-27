@@ -126,7 +126,7 @@ export const OddButton__styled = styled.button`
   transition: 0.2s;
 
   @media screen and (min-width: 1024px) {
-    justify-content: center!important;
+    justify-content: center !important;
     &:hover:not(:disabled) {
       background-color: var(--color-odd-active);
     }
