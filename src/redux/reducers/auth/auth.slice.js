@@ -5,7 +5,7 @@ import { authExtraReducers } from './auth.thunk';
 
 const initialState = {
   isAuth: false,
-  accessToken: null,
+  accessToken: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzAsInVzZXJuYW1lIjoidGx0LXRlc3QiLCJzaWduIjowLCJwcmVmaXgiOiJndGIiLCJpYXQiOjE3NjUxMDgxMDIsImV4cCI6MTc2NTE5NDUwMn0.S4fMmERHztanv_KXtsxF3uATnKdla8o32bfdt_Ahyo4`,
   currency: '',
   balance: 0,
 };

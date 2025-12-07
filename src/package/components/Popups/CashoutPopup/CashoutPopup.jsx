@@ -13,6 +13,7 @@ import {
 import axios from 'axios';
 import ButtonLoader from '../../UI/Button/ButtonLoader/ButtonLoader';
 import CashoutCompleted from './CashoutCompleted';
+import { API } from '@/api';
 
 const CASHOUT_TYPES = {
   full: 1,
@@ -44,7 +45,7 @@ const CashoutPopup = ({ amount, getBetHistory, ticketId }) => {
 
   useEffect(() => {
     axios
-      .get('sportsbook/cashout-details', { params: { id: ticketId } })
+      .get(API.betSlip.cashoutDetails, { params: { id: ticketId } })
       .then(res => {
         setCashoutDetails(res);
 
@@ -53,24 +54,43 @@ const CashoutPopup = ({ amount, getBetHistory, ticketId }) => {
       .finally(() => setCashoutDetailsLoading(false));
   }, []);
 
-  function handleCashOut() {
+  const handleCashOut = () => {
     setLoading(true);
+
     axios
-      .post('sportsbook/partial-cashout', {
+      .post(API.betSlip.preSubmitCashout, {
         ticketId,
-        amount,
         accept: true,
+        amount,
         part:
           cashoutType === CASHOUT_TYPES.full
             ? 'all'
             : value.type || +value.amount,
       })
-      .then(({ currentBalance, displayBalance }) => {
-        dispatch(updateBalance({ balance: currentBalance, displayBalance }));
+      .then(response => {
+        const { token, delay } = response;
+
+        if (!delay) {
+          return token;
+        }
+
+        return new Promise(resolve => setTimeout(resolve, delay * 1000, token));
+      })
+      .then(token => axios.post(API.betSlip.submitCashout, { token }))
+      .then(res => {
+        dispatch(
+          updateBalance({
+            balance: res.currentBalance,
+            displayBalance: res.displayBalance,
+          }),
+        );
         setCompleted(true);
       })
+      .catch(e => {
+        console.error(e);
+      })
       .finally(() => setLoading(false));
-  }
+  };
 
   function onOk() {
     getBetHistory();

@@ -1,26 +1,15 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { updateBalance } from '../auth/auth.slice';
-import { getRequestBody } from '../../../components/BetslipContainer/utils';
+import { API } from '@/api';
 
 export const placeBetThunk = createAsyncThunk(
   'betslip/placeBet',
-  async (
-    { bets, accept, isSingle, amount, isSystem, p, token },
-    { dispatch, rejectWithValue },
-  ) => {
+  async ({ isSingle, token }, { dispatch, rejectWithValue }) => {
     try {
-      const body = getRequestBody({
-        bets,
-        accept,
-        isSingle,
-        amount,
-        isSystem,
-        p,
-      });
       const response = await axios.post(
-        `sportsbook/${isSingle ? 'single' : 'betslip'}`,
-        { ...body, token, sp: 'v2' },
+        isSingle ? API.betSlip.placeSingleBetApi : API.betSlip.placeBetApi,
+        { token },
       );
 
       if (typeof response?.currentBalance === 'number') {
