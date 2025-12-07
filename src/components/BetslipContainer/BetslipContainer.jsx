@@ -67,6 +67,12 @@ const BetslipContainer = () => {
     setTimeout(async () => {
       await dispatch(
         placeBetThunk({
+          bets: isSingle ? bets.filter(bet => bet.amount > 0) : bets,
+          accept,
+          isSingle,
+          amount,
+          isSystem,
+          p,
           token,
         }),
       );

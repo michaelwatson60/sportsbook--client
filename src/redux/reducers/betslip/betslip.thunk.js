@@ -51,6 +51,7 @@ export const betslipExtraReducers = builder => {
     .addCase(placeBetThunk.fulfilled, (state, { meta }) => {
       const { bets } = meta.arg;
       state.isLoading = false;
+
       bets.forEach(bet => {
         state.bets[bet.ref].success = true;
       });
