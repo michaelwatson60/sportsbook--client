@@ -22,6 +22,7 @@ import { selectIsSportBonusAvailable } from '../../redux/reducers/configs/config
 import { getRequestBody } from './utils';
 import axios from 'axios';
 import { useState } from 'react';
+import { API } from '@/api';
 
 const BetslipContainer = () => {
   const dispatch = useDispatch();
@@ -57,7 +58,7 @@ const BetslipContainer = () => {
       p,
     });
     dispatch(toggleBetslipLoading(true));
-    const response = await axios.post(`sportsbook/pre-submit-bet`, {
+    const response = await axios.post(API.betSlip.preSubmitBet, {
       ...body,
       sp: 'v2',
     });
