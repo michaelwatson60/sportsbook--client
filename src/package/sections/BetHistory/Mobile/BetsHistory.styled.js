@@ -1,10 +1,13 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  background: #111;
   color: #fff;
-  padding: 1rem 1.5rem 2rem;
+  padding-top 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
   min-height: 260px;
+  width: 100%;
 `;
 
 export const TabsRow = styled.div`

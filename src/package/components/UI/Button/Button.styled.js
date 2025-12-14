@@ -12,7 +12,7 @@ export const Button__styled = styled.button`
   background-color: transparent;
   cursor: pointer;
   font-weight: inherit;
-  color: inherit;
+  color: ${({ color }) => color || 'inherit'};
 
   &:disabled {
     opacity: 0.5;
@@ -32,7 +32,7 @@ export const Button__styled = styled.button`
   font-size: 1rem;
 
   @media screen and (max-width: 800px) {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 `;
 

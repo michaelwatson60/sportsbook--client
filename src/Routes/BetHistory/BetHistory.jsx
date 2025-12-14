@@ -10,6 +10,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectIsSportBonusAvailable } from '../../redux/reducers/configs/configs.slice';
+import BetsHistory from '../../package/sections/BetHistory/Mobile/BetsHistory';
 
 const BetHistory = () => {
   const isTablet = useMediaQuery('only screen and (max-width: 1024px)');
@@ -35,7 +36,9 @@ const BetHistory = () => {
         <Navigation links={navLinks} />
       </HistoryNavigation__styled>
       {isTablet ? (
-        <BetHistoryMobile isBonusAvailable={isBonusAvailable} />
+        <>
+          <BetHistoryMobile isBonusAvailable={isBonusAvailable} />
+        </>
       ) : (
         <BetHistoryDesktop isBonusAvailable={isBonusAvailable} />
       )}

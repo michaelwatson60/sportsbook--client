@@ -158,7 +158,7 @@
 
 /* Cashout */
 .bet-history-item-mobile__cashout {
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
 
 .bet-history-item-mobile__cashout-button {
@@ -166,13 +166,13 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: calc(2.18rem + 2px);
+  height: calc(3rem + 2px);
   background-color: var(--color-active);
   border: none;
   color: var(--am-white);
   border-radius: 0.187rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
 }
 

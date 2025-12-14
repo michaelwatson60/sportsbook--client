@@ -39,7 +39,7 @@ export const MatchBoardSportSvg__styled = styled.svg`
 export const MatchBoardTitle__styled = styled.div`
   display: flex;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--color-text);
 
@@ -82,8 +82,8 @@ export const MatchBoardTeam__styled = styled.div`
 
 export const MatchBoardTeamIcon__styled = styled.div`
   margin: 0 0.5rem;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -98,8 +98,8 @@ export const MatchBoardTeamImg__styled = styled.img`
 `;
 
 export const MatchBoardTeamName__styled = styled.div`
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--color-white);
 
   span {
@@ -129,7 +129,7 @@ export const MatchBoardTime__styled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: var(--color-inactive);
 

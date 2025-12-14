@@ -132,7 +132,7 @@ export const Pagination__styled = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
 `;
 
 export const PaginationItem__styled = styled.button`
